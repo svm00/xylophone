@@ -1,16 +1,61 @@
-# xylophone
+## 🎵 Xylophone App
 
-A new Flutter project.
+A simple musical instrument app built with Flutter. Tap the colorful bars to play different musical notes – just like a real xylophone!
 
-## Getting Started
+### 📱 Features
 
-This project is a starting point for a Flutter application.
+* 7 colorful keys, each mapped to a different note (Do-Re-Mi-Fa-Sol-La-Ti).
+* Smooth and responsive UI.
+* Uses `audioplayers` package to play sounds from assets.
+* Clean, minimal design following Material guidelines.
 
-A few resources to get you started if this is your first Flutter project:
+### 🧰 Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **Flutter** (Dart)
+* **audioplayers** package
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🚀 Getting Started
+
+1. **Clone the repo:**
+
+   ```bash
+   git clone https://github.com/your-username/xylophone.git
+   cd xylophone
+   ```
+
+2. **Get dependencies:**
+
+   ```bash
+   flutter pub get
+   ```
+
+3. **Run the app:**
+
+   ```bash
+   flutter run
+   ```
+
+> ✅ Make sure your device/emulator is connected and set up properly.
+
+### 📂 Assets
+
+```yaml
+flutter:
+  assets:
+    - assets/note1.wav
+    - assets/note2.wav
+    - assets/note3.wav
+    - assets/note4.wav
+    - assets/note5.wav
+    - assets/note6.wav
+    - assets/note7.wav
+```
+Update your `pubspec.yaml`:
+
+### 📖 Learning Resources
+
+* [Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+* [Flutter Cookbook](https://flutter.dev/docs/cookbook)
+* [Flutter API Docs](https://api.flutter.dev)
+
+---
