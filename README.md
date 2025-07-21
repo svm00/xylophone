@@ -19,7 +19,8 @@ A simple musical instrument app built with Flutter. Tap the colorful bars to pla
 1. **Clone the repo:**
 
    ```bash
-   git clone https://github.com/your-username/xylophone.git
+   
+   git clone https://github.com/svm00/xylophone.git
    cd xylophone
    ```
 
